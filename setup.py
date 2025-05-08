@@ -22,7 +22,7 @@ setuptools.setup(
     description="A GPT-style multimodal model that can understand any combination of images and language",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Aleph-Alpha/magma",
+    url="https://github.com/Aleph-Alpha-Research/magma",
     packages=setuptools.find_packages(),
     install_requires=required,
     python_requires=">=3.9",
