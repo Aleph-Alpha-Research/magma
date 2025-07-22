@@ -46,11 +46,6 @@ You can pip install from the git repository with:
 pip install git+https://github.com/Aleph-Alpha-Research/magma.git
 ```
 
-Make sure that you also download the config:
-```
-mkdir configs; wget -O configs/MAGMA_v1.yml https://raw.githubusercontent.com/Aleph-Alpha-Research/magma/master/configs/MAGMA_v1.yml
-```
-
 Or if you've cloned the repo, you can install all further requirements by:
 
 ```bash
@@ -71,7 +66,7 @@ from magma.image_input import ImageInput
 
 model = Magma.from_checkpoint(
     config_path = "configs/MAGMA_v1.yml",
-    checkpoint_path = "./mp_rank_00_model_states.pt",
+    checkpoint_path = "./magma_demo.pt",
     device = 'cuda:0'
 )
 

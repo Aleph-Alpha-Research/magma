@@ -3,7 +3,7 @@ from magma.image_input import ImageInput
 
 model = Magma.from_checkpoint(
     config_path = "configs/MAGMA_v1.yml",
-    checkpoint_path = "./mp_rank_00_model_states.pt",
+    checkpoint_path = "./magma_demo.pt",
     device = 'cuda:0'
 )
 
