@@ -59,7 +59,7 @@ pip install -r requirements.txt
 
 ## Checkpoint
 
-We also publish a model checkpoint that has been used for the publication. It is hosted on our infrastructure and downloads automatically. It can be downloaded manually here: https://huggingface.co/Aleph-Alpha-Research/magma-research 
+We also publish a model checkpoint that has been used for the publication. It is hosted on our infrastructure and downloads automatically. It can be downloaded manually here: https://huggingface.co/Aleph-Alpha/magma-research 
 
 ## Loading a model for inference
 
